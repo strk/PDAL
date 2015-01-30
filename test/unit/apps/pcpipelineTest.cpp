@@ -187,6 +187,15 @@ TEST(pipelineFiltersTest, hexbin)
 TEST(pipelineFiltersTest, merge)
 { run_info("filters/merge.xml"); }
 
+TEST(pipelineFiltersTest, passthrough_z)
+{ run_info("filters/passthrough_z.xml"); }
+
+TEST(pipelineFiltersTest, passthrough_z_classification)
+{ run_info("filters/passthrough_z_classification.xml"); }
+
+TEST(pipelineFiltersTest, passthrough_classification)
+{ run_info("filters/passthrough_classification.xml"); }
+
 TEST(pipelineFiltersTest, reproject)
 { run_pipeline("filters/reproject.xml"); }
 
