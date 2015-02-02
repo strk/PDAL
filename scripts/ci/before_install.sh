@@ -21,8 +21,7 @@ sudo apt-get install g++-4.8
 
 sudo apt-get install boost1.55
 sudo apt-get install cmake
-sudo apt-get install libpcl-all
-dpkg --get-selections | grep hold
+sudo apt-get install libpcl-all -y
 
 if [[ $PDAL_CMAKE_GENERATOR == "Ninja" ]]
 then
