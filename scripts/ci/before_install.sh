@@ -19,7 +19,7 @@ sudo apt-get update -qq
 # Install g++-4.8 (even if we're building clang) for updated libstdc++
 sudo apt-get install g++-4.8
 
-sudo apt-get install boost1.55
+#sudo apt-get install boost1.55
 sudo apt-get install cmake
 sudo apt-get -f install libpcl-all
 
