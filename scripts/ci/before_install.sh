@@ -13,6 +13,7 @@ sudo add-apt-repository ppa:ubuntugis/ubuntugis-unstable -y
 sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
 sudo add-apt-repository ppa:boost-latest/ppa -y
 sudo add-apt-repository ppa:kalakris/cmake -y
+sudo add-apt-repository ppa:v-launchpad-jochen-sprickerhof-de/pcl -y
 sudo apt-get update -qq
 
 # Install g++-4.8 (even if we're building clang) for updated libstdc++
@@ -20,6 +21,7 @@ sudo apt-get install g++-4.8
 
 sudo apt-get install boost1.55
 sudo apt-get install cmake
+sudo apt-get install pcl-1.7
 
 if [[ $PDAL_CMAKE_GENERATOR == "Ninja" ]]
 then
