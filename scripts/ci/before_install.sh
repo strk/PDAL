@@ -24,7 +24,7 @@ sudo apt-get install cmake
 sudo apt-get -f install libpcl-all
 
 sudo apt-get purge libboost1.46
-sudo apt-get autoremove
+#sudo apt-get autoremove
 sudo apt-get install boost1.55
 
 if [[ $PDAL_CMAKE_GENERATOR == "Ninja" ]]
